@@ -31,6 +31,7 @@ export default function Header() {
             <span className="font-semibold dark:text-[#D4AF37] text-xl">
               ADA INVENTIVE
             </span>
+            <p className="text-sm italic">optimum aut nihil</p>
           </Link>
         </div>
 
