@@ -3,6 +3,7 @@
 import Link from "next/link";
 import ThemeSwitch from "./ThemeSwitch";
 import { useState } from "react";
+import BackButton from "./BackButton";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ export default function Header() {
     >
       <div className="flex justify-between items-center mx-auto px-4 py-4 container">
         {/* Logo */}
+
         <div className="flex items-center">
           <Link href="/" onClick={closeMenu}>
             <span className="font-semibold dark:text-[#D4AF37] text-xl">
@@ -67,9 +69,10 @@ export default function Header() {
                 href="/portfolio"
                 className="hover:bg-[#D4AF37] dark:hover:bg-[#D4AF37] px-4 py-2 rounded-md text-[#D4AF37] dark:text-white text-sm transition-colors"
               >
-                Portfolio
+                Our env_
               </Link>
             </li>
+            <BackButton children={undefined} />
           </ul>
           <ThemeSwitch />
         </nav>
@@ -147,9 +150,10 @@ export default function Header() {
                 onClick={closeMenu}
                 className="block hover:bg-[#D4AF37] dark:hover:bg-[#D4AF37] px-4 py-3 rounded-md text-[#D4AF37] dark:text-white text-sm transition-colors"
               >
-                Portfolio
+                Our env_
               </Link>
             </li>
+            <BackButton children={undefined} />
           </ul>
         </nav>
       </div>

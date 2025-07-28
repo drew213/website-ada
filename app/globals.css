@@ -93,3 +93,123 @@ body {
     padding: 0.92rem 0.7rem;
   }
 }
+folder-body-gradient {
+  background: linear-gradient(120deg, #ffe178 0%, #fecc65 46%, #fcc239 100%);
+  box-shadow: 0 8px 36px 0 rgba(151, 119, 39, 0.15), 0 3px 48px -4px #fed25333;
+  border-bottom-width: 6px;
+}
+.folder-top-gradient {
+  background: linear-gradient(120deg, #fff6b9 2%, #ffe175 50%, #fae29a 98%);
+  box-shadow: 0 1.5px 12px -2px #e6cc6740, 0 -2px 5px -3px #faf1cb44;
+}
+.folder-lid-open {
+  transform: rotateX(72deg) translateY(-5px) scaleY(1.08) scaleX(1.03);
+  box-shadow: 0 10px 40px 4px #f8d63d44;
+  z-index: 70;
+}
+.folder-lid-closed {
+  transform: rotateX(2.5deg) scaleY(1) scaleX(1.01);
+  z-index: 50;
+}
+.tab-front {
+  box-shadow: 0 8px 14px 0 #e9cd6020 !important;
+}
+.tab-behind {
+  box-shadow: 0 8px 15px 0 #ffe29a11;
+}
+
+
+ .gradient-word {
+          color: transparent;
+          background: linear-gradient(90deg, #2998ff 25%, #00c9fa 90%);
+          -webkit-background-clip: text;
+          font-weight: 900;
+          background-clip: text;
+          letter-spacing: 0.03em;
+        }
+
+.animate-glow {
+          filter: drop-shadow(0 0 16px #74eeff99)
+            drop-shadow(0 1px 16px #c0e6ff63);
+        }
+        
+        
+.highlight {
+          color: transparent;
+          background: linear-gradient(85deg, #2ed0f7 4%, #2363eb 90%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          filter: brightness(1.11) saturate(1.24);
+        }
+
+
+.animate-fade-in {
+  animation: fadeIn 0.3s both cubic-bezier(0.4, 0, 0.2, 1);
+}
+.animate-slide-up {
+  animation: slideUp 0.44s both cubic-bezier(0.35, 0.78, 0.38, 1);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.animated-portfolio-btn {
+          box-shadow: 0 2px 14px 0 rgba(44, 180, 255, 0.1);
+        }
+        .animated-portfolio-btn:focus-visible {
+          outline: 2px solid #38b2fe;
+          outline-offset: 2px;
+        }
+
+
+              .glass-modal {
+                backdrop-filter: saturate(160%) blur(14px);
+                border: 1.5px solid rgba(52, 172, 255, 0.25);
+              }
+              .animate-fade-in {
+                animation: fadeIn 0.32s both cubic-bezier(0.5, 0, 0.2, 1.1);
+              }
+              @keyframes fadeIn {
+                from {
+                  opacity: 0;
+                }
+                to {
+                  opacity: 1;
+                }
+              }
+              .glass-tag {
+                backdrop-filter: saturate(150%) blur(7px);
+                box-shadow: 0 0 6px 0 rgba(52, 172, 255, 0.09);
+                border-color: rgba(52, 172, 255, 0.11);
+              }
+
+
+
+
+
+            @keyframes scrollSkills {
+              0% {
+                transform: translateX(0);
+              }
+              100% {
+                transform: translateX(-50%);
+              }
+            }
+            .animate-scrollSkills {
+              animation: scrollSkills 60s linear infinite;
+            }
