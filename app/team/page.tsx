@@ -31,21 +31,21 @@ type certifications = {
 const TEAM: TeamMember[] = [
   {
     name: "A.D Adetunji",
-    role: "COO & Co-founder",
+    role: "COO & Lead Dev",
     imgUrl: "/ADANew.png",
     bio: "Driven by innovation, Darren leads strategy and vision at the company, drawing on a lifelong vision for what tech should be.",
     skills: ["Software Development", "Project Management", "Team Leadership"],
   },
   {
     name: "Windapo Olaoluwa",
-    role: "CDO & Co-founder",
+    role: "CDO ",
     imgUrl: "/ADANew.png",
     bio: "Windy excels at creating mesmerizing designs that bring to life the innovative details of a project.",
     skills: ["UI/UX Design", "Graphic Design", "Branding"],
   },
   {
     name: "Oluwagbemiga Adetunji",
-    role: "CMO & Co-founder",
+    role: "CMO",
     imgUrl: "/ADANew.png",
     bio: "Gbemiga comes up with innovative, modern and well tailored marketing campaigns.",
     skills: ["Digital Marketing", "Content Strategy", "Brand Development"],
@@ -158,7 +158,7 @@ export default function page() {
                 <img
                   src={member.imgUrl}
                   alt={member.name}
-                  className="shadow mb-3 border-4 dark:border-neutral-700 border-blue-100 rounded-full w-24 h-24 object-cover"
+                  className="shadow mb-3 border-4 border-blue-100 dark:border-neutral-700 rounded-full w-24 h-24 object-cover"
                 />
                 <h3 className="font-bold text-blue-700 dark:text-blue-300 text-lg sm:text-xl">
                   {member.name}
@@ -196,7 +196,7 @@ export default function page() {
                 <img
                   src={member.imgUrl}
                   alt={member.name}
-                  className="shadow mb-3 border-4 dark:border-neutral-700 border-blue-100 rounded-full w-20 sm:w-24 h-20 sm:h-24 object-cover"
+                  className="shadow mb-3 border-4 border-blue-100 dark:border-neutral-700 rounded-full w-20 sm:w-24 h-20 sm:h-24 object-cover"
                 />
                 <h3 className="font-bold text-blue-700 dark:text-blue-300 text-lg sm:text-xl">
                   {member.name}

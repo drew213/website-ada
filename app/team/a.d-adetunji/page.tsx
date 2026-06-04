@@ -1,6 +1,7 @@
 "use client";
 
 import PageLayout from "@/components/PageLayout";
+import SMAprovider from "@/components/SMAprovider";
 import React, { useState } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { SimpleCarousel } from "react-whirlpool";
@@ -232,17 +233,17 @@ export default function page() {
         <section className="space-y-4 bg-gray-50 dark:bg-gray-800 shadow-md mx-auto mb-14 p-8 rounded-lg max-w-4xl text-center">
           <h2 className="mb-2 font-bold text-3xl">Let’s Connect</h2>
           <p>
-            📍 London | ✉️{" "}
+            📍 London - England 📍Toronto - Canada | ✉️{" "}
             <a
-              href="mailto:adetunjidarren@gmail"
+              href="mailto:darren.adainventive@gmail"
               className="text-blue-600 hover:dark:text-blue-600 hover:text-blue-800 dark:text-blue-400 underline"
             >
-              adetunjidarren@gmail.com
+              darren.adainventive@gmail.com
             </a>{" "}
-            | 📞 +44 785 060 0742
+            | 📞 +44 785 0600 742 📞+1 548 331 1077
           </p>
           <p className="mx-auto max-w-lg text-gray-700 dark:text-gray-300">
-            I’m open to freelance work, collaborations, or full-time roles.
+            I’m open to freelance work, collaborations, or internship roles.
           </p>
           <div className="flex flex-wrap justify-center gap-6 mt-6">
             <a
@@ -264,6 +265,9 @@ export default function page() {
               View Skills
             </a>
           </div>
+        </section>
+        <section>
+          <SMAprovider />
         </section>
       </main>
     </PageLayout>
@@ -341,6 +345,8 @@ function ExperienceFolder({
           </article>
         </div>
       )}
+
+      
     </>
   );
 }

@@ -33,35 +33,31 @@ export default function Page() {
                 leftHalf={
                   <>
                     <h2 className="mb-4 text-gray-900 dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-                      Introducing our latest app - S3RVHUB
+                      Introducing our latest Solution - HESTIA
                     </h2>
                     <p className="font-light text-xl">
                       <Link
-                        href="https://s3rvhub.com"
+                        href="https://hestiapm.ca/"
                         className="text-blue-500"
                       >
-                        S3RVHUB
+                        Hestia
                       </Link>
-                      &nbsp;is a revolutionary platform created to aid aspiring
-                      entrepreneurs who are looking to start a&nbsp;
+                      &nbsp;is a revolutionary platform created to aid canadian SFR landlords&nbsp;
                       <strong className="text-blue-500">
-                        service based business
+                        with their tenant management and maintenance requests
                       </strong>
-                      , we offer a wide range of services to help you get
-                      started hassle free, we provide you with an admin panel,
-                      options to integrate with a trusted payment gateway for
-                      payment handling, and a beautiful user interface to help
-                      you manage your business.
+                      , Hestia provides a variety of industry necessary tools to
+                      help you improve your maintenance workflow.
                     </p>
                   </>
                 }
                 rightHalf={
                   <Image
-                    src={"/mockup.png"}
+                    src={"/hestia-mockup.png"}
                     alt="section-image"
                     width={400}
-                    height={7000}
-                    className="w-full h-full rotate-x-20"
+                    height={700}
+                    className="w-full rotate-x-20"
                   />
                 }
               />
@@ -76,12 +72,12 @@ export default function Page() {
                   <h2 className="mb-4 text-gray-900 dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                     <span>
                       <Link
-                        aria-label="S3RVHUB"
+                        aria-label="HESTIA"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={"https://s3rvhub.com"}
+                        href={"https://hestiapm.ca"}
                       >
-                        <strong className="text-blue-500">S3RVHUB</strong>
+                        <strong className="text-blue-500">HESTIA</strong>
                       </Link>
                     </span>
                     &nbsp;in 3&nbsp;<strong>Points</strong>
@@ -89,7 +85,7 @@ export default function Page() {
                   <p className="font-light text-xl">
                     Here we provide you with 3 succinct Statements that
                     introduce you to what&nbsp;
-                    <strong className="text-blue-500">S3RVHUB</strong> is all
+                    <strong className="text-blue-500">HESTIA</strong> is all
                     about.
                   </p>
                 </div>

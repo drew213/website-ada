@@ -56,7 +56,7 @@ const defaultAccordionItems = [
   {
     title: "Sign up for free",
     content:
-      "NO we don't charge a registration free or even operate a subscription model, we believe we should not get paid until you do which is why we charge a platform instead.",
+      "Hestia offers a free tier for landlords with one property",
   },
   {
     title: "Easy of use",

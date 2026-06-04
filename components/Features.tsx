@@ -1,50 +1,58 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
 import { FaReact, FaDatabase } from "react-icons/fa";
-import {
-  SiPhp,
-  SiLaravel,
+import { 
+  SiReact,
   SiTailwindcss,
   SiStripe,
-  SiMailgun,
-} from "react-icons/si";
+  SiResend,
+  SiTwilio,
+  SiNextdotjs,
+SiSupabase} from "react-icons/si";
 
 const Features = () => {
   const features = [
     {
-      icon: SiLaravel,
-      title: "Laravel 12",
+      icon: SiNextdotjs,
+      title: "Next.js 16 (App Router)",
       description:
-        "The platform is built using Laravel 12, a powerful PHP framework, which allows us to create a robust, modular and scalable application, laravel comes prebuilt with solutions for authentication, authorization, RBAC and more.",
+        "Built on Next.js 16 with the App Router and Turbopack, enabling fast server and client components, API routes, and cron-based scheduled maintenance jobs.",
     },
     {
-      icon: SiMailgun,
-      title: "Mailgun",
-      description:
-        "Smart mailing utilizing mailgun for order notifications, booking notifications etc.",
-    },
-    {
-      icon: FaReact,
+      icon: SiReact,
       title: "React 18",
-      description: "Server and Client Components. using hooks and context.",
+      description:
+        "UI built with React 18, using hooks and context throughout — from ticket workflows to contractor-facing tokenized views.",
     },
     {
-      icon: FaDatabase,
-      title: "Database",
+      icon: SiSupabase,
+      title: "Supabase",
       description:
-        "Utilizes MySQL for data storage and management as well as technologies like redis to improve database efficiency.",
+        "PostgreSQL database with Supabase for data storage, row-level security, file storage, and real-time updates across the three-sided maintenance workflow.",
     },
     {
       icon: SiTailwindcss,
-      title: "Components",
+      title: "Tailwind CSS & shadcn/ui",
       description:
-        "Awesome components built with Tailwind CSS and and also the DaisyUi component library.",
+        "Fully responsive UI built with Tailwind CSS and shadcn/ui components, styled to Hestia's ember-and-stone design system.",
     },
     {
       icon: SiStripe,
-      title: "Payment using Stripe",
+      title: "Stripe Billing",
       description:
-        "The platform utilizes Stripe for secure payments and vendor disbursements.",
+        "Stripe powers subscription management across all five pricing tiers, with webhook handling, plan-gated feature flags, and a self-serve customer portal.",
+    },
+    {
+      icon: SiTwilio,
+      title: "Twilio",
+      description:
+        "SMS notifications and inbound SMS-to-ticket creation via Twilio webhooks, with WhatsApp Business API support scoped for Growth-tier and above.",
+    },
+    {
+      icon: SiResend,
+      title: "Resend",
+      description:
+        "Transactional email for tenant requests, contractor work order updates, invoice approvals, and manager notifications — all sent via Resend.",
     },
   ];
 
@@ -72,3 +80,5 @@ const Features = () => {
 };
 
 export default Features;
+
+
